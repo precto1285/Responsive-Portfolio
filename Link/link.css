@@ -1,0 +1,98 @@
+			body {
+				border-style:groove;
+				background-color:#b3d9ff;
+				width:1700px;
+			}
+			ul {
+				list-style-type:none;
+				font-size:30px;
+				font-family:sans-serif;
+			}
+			ol {
+			
+				color:#29293d;
+				font-family:cursive;
+				font-stretch:expanded;
+			}
+			li {
+				margin:50px;
+			}
+			#Top {
+				border-style:solid double;
+				background-color:#ff9999;
+				text-align:center;
+				color:#ffffcc;
+			}
+			#Top2 {
+				background-color:#2f3ace;
+				float:right;
+				width:800px;
+				font-family:cursive;
+				border-style:solid double;
+				font-size:22pt;
+				color:white;
+			}
+			#Image {
+				border-style:solid double;
+				background-color:grey;
+				float:left;
+				width:800px;
+				padding:10px;
+				
+			}
+			#Practice {
+				border-style:solid double;
+				text-align: center;
+				background-color:beige;
+				
+			}
+			#Resource {
+				border-style:solid double;
+				font-family:sans-serif;
+				color:#ff1a75;
+				text-align:center;
+			}
+			#Objective {
+				border-style:solid double;
+				background-color:#b3b3cc;
+				font-size:15pt;
+				clear:both;
+				margin:50px;
+			}
+			
+			#Footer {
+				clear:both;
+				text-align:center;
+				background-color:#5900b3;
+				color:white;
+			}
+			.title {
+				font-size:24pt;
+			}
+			.resLink {
+				background-image:url("WebImage.jpg");
+				background-blend-mode:screen;
+				background-size:cover;
+				text-align:left;
+				font-family:cursive;
+				font-size:35pt;
+				margin:30px;
+			}
+			.photo {
+				border:solid;
+			}
+			a:link {
+    			color: #e699ff;
+    			background-color: transparent;
+			}
+			a:visited {
+    			color: #f2ccff;
+    			background-color: transparent;
+    			text-decoration: none;
+			}
+			a:hover {
+    			color: #ff1a75;
+    			background-color: transparent;
+    			text-decoration: underline;
+			}
+			

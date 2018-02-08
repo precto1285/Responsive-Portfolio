@@ -1,0 +1,88 @@
+
+body{
+	margin:center;
+	background-color:purple;
+	width:1800px;	
+}
+
+title{
+	
+	}
+h1{
+	color:white;
+	text-align:center;
+	Background-color:brown;
+	font-family:Cursive;
+	font-size: 230%;
+}
+h2{
+	background-color:red;
+	color:white;
+	font-size: 150%;
+	text-align: center;
+	font-family: cursive;
+}	
+h3{
+	font-size:120%;
+	text-align:center;
+	color:white;
+}
+ul{
+	list-style-type: none;
+	color: brown;
+	font-size: 90%;
+	font-family:Cursive;
+	text-align:center;
+	}
+}
+ol{
+	font-size: 90%;
+	font-family: Cursive;
+	}
+li{
+	Color:brown;
+	font-size: 87%;
+	font-family:Cursive;
+	text-align:left;
+}
+p{
+	Color:grey;
+	font-size: 130%;
+	font-family:Cursive;
+}
+#instruction{
+	background-color:orange;
+	font-size: 150%;
+	font-family:Cursive;
+	clear:both;
+	margin-top:5px;
+
+	
+}
+#footer{
+	text-align:right;
+	background-color:yellow;
+	text-size:130%;
+	clear:both;
+	color:black;
+	
+}
+#Need{
+	width:590px;
+	margin-right:10px;
+	float:right;
+	background-color:tan;
+
+}
+#What{
+	backround-color:brown;
+	width:1190px;
+	margin-left:10px;
+	float:left;
+	background-color:black;
+	margin-bottom:10px;
+}
+#image{
+	margin-bottom:17px;
+}
+

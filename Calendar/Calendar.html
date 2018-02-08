@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Financial Calendar Planner</title>
+		<style>
+			body {
+				background-color:#999966;
+			}
+			#Title {
+				background-color:#006600;
+				color:#ffff99;
+				font-family:san-serif;
+				text-align:center;
+				width:auto;
+				padding:10px;
+			}
+			#Intro {
+				background-color:#ffe6b3;
+				color:#006633;
+				width:auto;
+				padding:10px;
+				float:left;
+			}
+			#image {
+				padding-right:20px;
+				padding-bottom:20px;
+				width:auto;
+				margin:auto;
+				float:right;
+			}
+			#calendarheader {
+				background-color:#004d1a;
+				color:#e6ccb3;
+				text-align:center;
+				clear:both;
+				width:auto;
+			}
+			#Calendar {
+				font-size:25px;
+				background-color:#dfbf9f;
+				float:left;
+				width:920px;
+				margin:auto;
+				padding:10px;
+				padding-bottom:62px;		
+			}
+			#Results {
+				background-color:black;
+				color:#e6ccb3;
+				float:right;
+				width:920px;
+				margin:auto;
+				padding:10px;
+			}
+			#Footer {
+				background-color:#004d1a;
+				color:#e6ccb3;
+				text-align:right;
+				clear:both;
+				width:auto;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id=Title>
+			<h1>Financial Calendar Planner</h1>
+			<h2>Monthly Money Manager and Forecaster</h2>
+
+		</div>
+		<div id=Intro>
+			<h2>How Does It Work?</h2>
+				<p>This Calendar tool is to help you see where you will be by the end of any given month. Once you enter all your income and expenses <br/> you forecast per day within the month, you will be able to see how much you earned, how much you spent, and what you will have left.</p>
+				
+				
+			
+			<h3>Follow these steps below to begin:</h3>
+				<ol>
+					<li><form action="http://www.example.com/subscribe.php">
+					<p>Enter how much money you will have at the beginning of the month:
+						<input type="value" name="savings" size="15" maxlength="6">
+					</p>
+					</form></li>
+					<li>
+						<form action="http://www.example.com/profile.php">
+						<p>How Many Days are in the Month your are planning for?:</p>
+						<input type="radio" name="days in the month" value="28"/>28
+						<input type="radio" name="days in the month" value="29"/>29
+						<input type="radio" name="days in the month" value="30"/>30
+						<input type="radio" name="days in the month" value="31"/>31
+					</form>
+
+				</li>
+					<li><form action="http://www.example.com/profile.php">
+					<p>What day does the month start:</p>
+					<select name="day">
+						<option value="Sunday">Sunday</option>
+						<option value="Monday">Monday</option>
+						<option value="Tuesday">Tuesday</option>
+						<option value="Wednesday">Wednesday</option>
+						<option value="Thursday">Thursday</option>
+						<option value="Friday">Friday</option>
+						<option value="Saturday">Saturday</option>
+					</select>
+				</form></li>
+				</ol>
+		</div>
+		<div id=image>
+					<img SRC="monehy.jpg" width="500" alt="money"/>	
+		</div>
+		<div id=calendarheader>
+			<h4>Financial Calendar</h4>
+		</div>
+		<div id=Calendar>
+			<center><h2>Calendar</h2>
+			<table>
+				<tr>
+					<th id=sun>SUN</th>
+					<th id=mon>MON</th>
+					<th id=tue>TUE</th>
+					<th id=wed>WED</th>
+					<th id=thu>THU</th>
+					<th id=fri>FRI</th>
+					<th id=sat>SAT</th>
+				</tr>
+				<tr>
+					<th id=r1c1>01</th>
+					<th id=r1c2>02</th>
+					<th id=r1c3>03</th>
+					<th id=r1c4>04</th>
+					<th id=r1c5>05</th>
+					<th id=r1c6>06</th>
+					<th id=r1c7>07</th>
+				</tr>
+				<tr>
+					<th id=r2c1>08</th>
+					<th id=r2c2>09</th>
+					<th id=r2c3>10</th>
+					<th id=r2c4>11</th>
+					<th id=r2c5>12</th>
+					<th id=r2c6>13</th>
+					<th id=r2c7>14</th>
+				</tr>
+				<tr>
+					<th id=r3c1>15</th>
+					<th id=r3c2>16</th>
+					<th id=r3c3>17</th>
+					<th id=r3c4>18</th>
+					<th id=r3c5>19</th>
+					<th id=r3c6>20</th>
+					<th id=r3c7>21</th>
+				</tr>
+				<tr>
+					<th id=r4c1>22</th>
+					<th id=r4c2>23</th>
+					<th id=r4c3>24</th>
+					<th id=r4c4>25</th>
+					<th id=r4c5>26</th>
+					<th id=r4c6>27</th>
+					<th id=r4c7>28</th>
+				</tr>
+				<tr>
+					<th id=r5c1>29</th>
+					<th id=r5c2>30</th>
+					<th id=r5c3>31</th>
+					<th id=r5c4>01</th>
+					<th id=r5c5>02</th>
+					<th id=r5c6>03</th>
+					<th id=r5c7>04</th>
+				</tr>
+			</table></center>
+		</div>
+		<div id=Results>
+			<h2>Results:</h2>
+			<ul>
+				<li>Start of the Month:</li>
+				<li>Income Primary:</li>
+				<li>Income Other:</li>
+				<li>Income Gross:</li>
+				<li>Expense Mortgage:</li>
+				<li>Expense Auto Loan:</li>
+				<li>Expense Personal Loan:</li>
+				<li>Expense Insurance:</li>
+				<li>Expense Credit Card:</li>
+				<li>Expense Cash:</li>
+				<li>Expense Utlities:</li>
+				<li>Expense Miscellaneous:</li>
+				<li>Total Expenses:</li>
+				<li>Net Income/Loss:</li>
+				<li>End of the Month:</li>
+			</ul>
+		</div>
+		<div id=Footer>
+			<h4>Copyright &copy; Philippe Recto 2018</h4>
+		</div>
+
+		<string></string>
+	</body>
+</html>
