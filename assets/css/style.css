@@ -160,7 +160,7 @@ a:hover {
     clear:both;
     margin-top:0px;
     /* border:solid; */
-    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     background-color:#4aaaa5;
     color:#ffffff;
     text-align:center;    
@@ -174,7 +174,7 @@ a:hover {
     clear:both;
     margin-top:0px;
     /* border:solid; */
-    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     background-color:#4aaaa5;
     color:#ffffff;
     text-align:center;
@@ -187,6 +187,10 @@ a:hover {
 }
 #right {
     float:right;
+}
+
+.pname {
+    font-size:20pt;
 }
 
 
