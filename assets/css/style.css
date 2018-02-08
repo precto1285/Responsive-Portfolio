@@ -188,4 +188,8 @@ a:hover {
 #right {
     float:right;
 }
-    
+
+
+@media screen {
+    max-width: 980px, 768px, 640px;
+}
