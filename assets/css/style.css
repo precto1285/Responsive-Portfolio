@@ -198,7 +198,7 @@ a:hover {
 }
 
 
-/*@media only screen and (max-width:980px) {
+@media only screen and (max-width:980px) {
 
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -225,4 +225,4 @@ a:hover {
 
     [class*="col-"] {
         width: 100%;
-    }*/
+    }
