@@ -198,8 +198,8 @@ a:hover {
 }
 
 
-@media only screen and (max-width:980px) {
-/* For desktop: [taken from w3 schools]*/
+/*@media only screen and (max-width:980px) {
+
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -216,13 +216,13 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: [taken from w3schools]*/
+
     [class*="col-"] {
         width: 100%;
     }
 
 @media only screen and (max-width: 640px) {
-    /* For mobile phones: [taken from w3schools]*/
+
     [class*="col-"] {
         width: 100%;
-    }
+    }*/
