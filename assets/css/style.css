@@ -23,7 +23,7 @@ body {
     
 }
 
-#title {
+header {
     background-color:#ffffff;
     margin-top: -5px;
     margin-bottom: 70px;
@@ -84,7 +84,7 @@ body {
     width:960px;
 }
 
-#sidebar {
+sidebar {
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding:7px;
     background-color:#ffffff;
@@ -97,7 +97,7 @@ body {
     
 }
 
-#main {
+main {
     margin-bottom:230px;
     background-color:#ffffff;
     font-size:10pt;
