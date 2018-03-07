@@ -1,23 +1,20 @@
 body {
-    background-image: url("../images/wall4_@2X.png");
-    align-content:center;
-    margin: auto;  
+    background-image: url("../images/wall4_@2X.png"); 
  }
 
 #name {
     background-color:#4aaaa5;
     color:#ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size:15px;
-    text-align:center;
-    padding:auto;
-    margin-top: -37px;
-    height:auto;
-    width:300px;
-    float:left;
-    position:fixed;
-    left:391px;
-    top:40px; 
+    font-size:20pt;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+    margin-left: 300px;
+    width:auto;
+    height:50px;
+    display:inline-block;
+    
 
     
     
@@ -25,66 +22,60 @@ body {
 
 header {
     background-color:#ffffff;
-    margin-top: -5px;
-    margin-bottom: 70px;
-    padding: 40px;
-    height:3px;
-    width:100%;
-    border: solid;
-    border-width: 1px;
-    border-color: #cccccc;
-    position:fixed;
-    top:0px;
+    width: 100%;
+    height: 70px;
 }
 
 
 #content {
     background-color:#ffffff;
-    float:right;
+    display:inline-block;
+    margin-left: 750px;
+
 
     
     
 }
 
 #link1 {
+    padding-right: 5px;
     text-align:right;
-    float:right;
-    padding-left:50px;
-    padding-right: 400px;
-    border-left: solid;
-    border-width:0.5px;
-    font-size: 8pt;
+    display:inline-block;
+    margin-right:5px;
+    font-size: 18pt;
+
 
 }
 #link2 {
+    padding-right: 5px;
     text-align:right;
-    float:right;
-    padding-left:50px;
-    padding-right: 50px;
-    border-left:solid;
-    border-width:0.5px;
-    font-size: 8pt;
+    display:inline-block;
+    margin-right:5px;
+    font-size: 18pt;
 
 }
 #link3 {
+    padding-right: 5px;
     text-align:right;
-    float:right;
-    padding-left:50px;
-    padding-right: 50px;
-    font-size:8pt;
-    /* border:solid; */
+    display:inline-block;
+    margin-right:5px;
+    font-size: 18pt;
+}
+#link4 {
+    padding-right: 5px;
+    text-align:right;
+    display:inline-block;
+    margin-right:5px;
+    font-size: 18pt;
 }
 
 #entire {
-    margin:auto;
-    padding-top:100px;
     background-image: url("../images/wall4_@2X.png");
-    /* border:solid; */
-    clear:both;
-    width:960px;
 }
 
 sidebar {
+    margin-right:300px;
+    margin-top:50px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding:7px;
     background-color:#ffffff;
@@ -98,7 +89,8 @@ sidebar {
 }
 
 main {
-    margin-bottom:230px;
+    margin-left:300px;
+    margin-top:50px;
     background-color:#ffffff;
     font-size:10pt;
     padding:7px 7px 10px 7px;
