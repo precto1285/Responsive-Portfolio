@@ -3,17 +3,21 @@ body{
 	border-radius:150px;
 	background-image:url("chef.jpg");
 	background-size:100%;
+	opacity:0.9;
 }
 header{
 	border: solid;
 	border-color: black;
-	background-color:red;
+	border-radius:150px;
+	background-color:rgb(146, 69, 6);
 	color:white;
 	text-align:center;
 	margin-left:150px;
 	margin-right:150px;
 }
 main {
+	border:solid;
+	border-radius:150px;
 	background-image:url("flag.jpg");
 	background-size:100%;
 	width: 800px;
@@ -21,39 +25,46 @@ main {
 	padding:80px;
 	margin-top:200px;
 	margin-left:150px;
-	opacity:0.9;
-	color:rgb(201, 91, 2);
+	color:rgb(199, 112, 71);
 }
 sidebar{
+	border:solid;
+	border-radius:150px;
 	background-image:url("lapulapu.jpg");
 	background-size:110%;
-	color:white;
+	color:rgb(146, 69, 6);
 	margin-top:100px;
 	margin-right:150px;
 	margin-bottom:30px;
 	width: 516px;
-	padding:10px;
+	padding:45px;
 	float: right;
-	opacity:0.9;
 }
 #kitchenTools{
+	border:solid;
+	border-radius:150px;
 	background-color:rgb(179, 205, 228);
-	color:brown;
+	color:rgb(146, 69, 6);
 	clear:both;
 	opacity:0.7;
 	margin-left:150px;
 	margin-right:150px;
+	padding:45px;
 }
 #Instruction{
-	background-color:brown;
+	border:solid;
+	border-radius:150px;
+	background-color:rgb(146, 69, 6);
 	color:yellow;
-	opacity:0.7;
 	margin-left:150px;
 	margin-right:150px;
+	padding:45px;
 }
 footer{
-	background-color:brown;
-	color:white;
+	border:solid;
+	border-radius:150px;
+	background-color:blue;
+	color:rgb(146, 69, 6);
 	text-align:center;
 	padding-top:10px;
 	padding-bottom:10px;
@@ -64,5 +75,5 @@ li{
 	width:85%;
 	height:80px;
 	font-size:18pt;
-	text-align:center;
+
 }
