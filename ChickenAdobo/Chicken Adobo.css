@@ -1,88 +1,68 @@
-
 body{
-	margin:center;
-	background-color:purple;
-	width:1800px;	
+	border:solid;
+	border-radius:150px;
+	background-image:url("chef.jpg");
+	background-size:100%;
 }
-
-title{
-	
-	}
-h1{
-	color:white;
-	text-align:center;
-	Background-color:brown;
-	font-family:Cursive;
-	font-size: 230%;
-}
-h2{
+header{
+	border: solid;
+	border-color: black;
 	background-color:red;
 	color:white;
-	font-size: 150%;
-	text-align: center;
-	font-family: cursive;
-}	
-h3{
-	font-size:120%;
 	text-align:center;
-	color:white;
+	margin-left:150px;
+	margin-right:150px;
 }
-ul{
-	list-style-type: none;
-	color: brown;
-	font-size: 90%;
-	font-family:Cursive;
-	text-align:center;
-	}
-}
-ol{
-	font-size: 90%;
-	font-family: Cursive;
-	}
-li{
-	Color:brown;
-	font-size: 87%;
-	font-family:Cursive;
-	text-align:left;
-}
-p{
-	Color:grey;
-	font-size: 130%;
-	font-family:Cursive;
-}
-#instruction{
-	background-color:orange;
-	font-size: 150%;
-	font-family:Cursive;
-	clear:both;
-	margin-top:5px;
-
-	
-}
-#footer{
-	text-align:right;
-	background-color:yellow;
-	text-size:130%;
-	clear:both;
-	color:black;
-	
-}
-#Need{
-	width:590px;
-	margin-right:10px;
-	float:right;
-	background-color:tan;
-
-}
-#What{
-	backround-color:brown;
-	width:1190px;
-	margin-left:10px;
+main {
+	background-image:url("flag.jpg");
+	background-size:100%;
+	width: 800px;
 	float:left;
-	background-color:black;
-	margin-bottom:10px;
+	padding:80px;
+	margin-top:200px;
+	margin-left:150px;
+	opacity:0.9;
+	color:rgb(201, 91, 2);
 }
-#image{
-	margin-bottom:17px;
+sidebar{
+	background-image:url("lapulapu.jpg");
+	background-size:110%;
+	color:white;
+	margin-top:100px;
+	margin-right:150px;
+	margin-bottom:30px;
+	width: 516px;
+	padding:10px;
+	float: right;
+	opacity:0.9;
 }
-
+#kitchenTools{
+	background-color:rgb(179, 205, 228);
+	color:brown;
+	clear:both;
+	opacity:0.7;
+	margin-left:150px;
+	margin-right:150px;
+}
+#Instruction{
+	background-color:brown;
+	color:yellow;
+	opacity:0.7;
+	margin-left:150px;
+	margin-right:150px;
+}
+footer{
+	background-color:brown;
+	color:white;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-left:150px;
+	margin-right:150px;
+}
+li{
+	width:85%;
+	height:80px;
+	font-size:18pt;
+	text-align:center;
+}
