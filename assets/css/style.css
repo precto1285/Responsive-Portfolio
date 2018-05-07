@@ -152,6 +152,8 @@ a:hover {
     color:blue;
 }
 .l {
+    width:250px;
+    height:200px;
     float:right;
     clear:both;
     margin-top:0px;
@@ -166,6 +168,8 @@ a:hover {
 }
 
 .r {
+    width:250px;
+    height:200px;
     float:right;
     clear:both;
     margin-top:0px;
