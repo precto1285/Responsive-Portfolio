@@ -1,72 +1,94 @@
-<!DOCTYPE html>
-
-<html>
+<!doctype html>
+<html lang="en-us">
 
 <head>
-    <title>Contact</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <title>Contact | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-    <header>
+  <div class="wrapper">
 
-        <div id="name">
-            <h1>Philippe Recto</h1>
-        </div>
-
-        <div id="content">
-            <a id="link1" href="index.html">About Me</a>
-            <a id="link2" href="contact.html">Contact</a>
-            <a id="link3" href="portfolio.html">Portfolio</a>
-            <a id="link4" href="https://docs.google.com/document/d/1sMf5xh_Y3kaXhs7NdbLtzQfy6lfkpx2yYZYSyWTrGxA/edit" target="_blank">Resume</a>
-
-        </div>
-
+    <header id="masthead">
+      <div class="container">
+        <a href="index.html" id="logo">Philippe Recto</a>
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">About</a>
+            </li>
+            <li>
+              <a href="portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+            <li>
+                <a id="link4" href="https://docs.google.com/document/d/1sMf5xh_Y3kaXhs7NdbLtzQfy6lfkpx2yYZYSyWTrGxA/edit" target = "_blank">Resume</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <div id="entire">
+    <main class="container">
+      <section class="main-section">
+        <h1>Contact</h1>
 
+        <form id="contact-form">
+          <ul>
+            <li>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+            </li>
+            <li>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+            </li>
+            <li>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required="required"></textarea>
+            </li>
+          </ul>
+          <input type="submit">
+        </form>
 
-        <main>
-            <h1 class="head1">Contact</h1>
-            <hr/>
-            <!-- Insert HTML forms hear -->
-            <br/>
-            <form action="mailto:precto1285@gmail.com" autocomplete="on">
-                E-mail:
-                <input type="email" name="email" autocomplete="off">
-                <br>
-                <br>
-                <br/>
-                <textarea name="message" rows="10" cols="30">Type your message here.</textarea>
-                <br>
-                <input type="submit">
-            </form>
-            <br/>
+      </section>
 
-        </main>
-        <sidebar>
-            <h2 class="head1">Connect with Me</h2>
-            <hr/>
-            <a href="https://github.com/precto1285" target="_blank">
-                <img src="assets/images/Github.png" alt=Github/>
-            </a>
-            <a href="https://www.linkedin.com/in/precto1285/" target="_blank">
-                <img src="assets/images/LinkedIn.png" alt="LinkedIn" />
-            </a>
-            <a href="https://stackexchange.com/users/12311524/philippe-recto" target="_blank">
-                <img src="assets/images/Stackoverflow.png" alt="StackOverflow" />
-            </a>
-        </sidebar>
+      <section class="sidebar">
+        <div id="connect">
+          <h2>Connect with Me</h2>
+
+          <ul>
+            <li>
+              <a target="_blank" href="https://github.com/precto1285">
+                <img src="assets/images/github-128.png" alt="Github">
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.linkedin.com/in/precto1285/">
+                <img src="assets/images/linkedin-128.png" alt="LinkedIn">
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://stackexchange.com/users/12311524/philippe-recto">
+                <img src="assets/images/stackoverflow-128.png" alt="Stack Overflow">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <div class="push"></div>
+  </div>
+
+  <footer>
+    <div class="container">
+      &copy; Copyright Philippe Recto 2018
     </div>
-    <footer>
-        Copyright &copy; Philippe Recto
-    </footer>
-
+  </footer>
 </body>
 
 </html>

@@ -1,93 +1,126 @@
-<!DOCTYPE html>
-
-<html>
+<!doctype html>
+<html lang="en-us">
 
 <head>
-    <title>Portfolio</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <title>Portfolio | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-    <header>
+  <div class="wrapper">
 
-        <div id="name">
-            <h1>Philippe Recto</h1>
-        </div>
-
-        <div id="content">
-                <a id="link1" href="index.html">About Me</a>
-                <a id="link2" href="contact.html">Contact</a>
-                <a id="link3" href="portfolio.html">Portfolio</a>
+    <header id="masthead">
+      <div class="container">
+        <a href="index.html" id="logo">Philippe Recto</a>
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">About</a>
+            </li>
+            <li>
+              <a href="portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+            <li>
                 <a id="link4" href="https://docs.google.com/document/d/1sMf5xh_Y3kaXhs7NdbLtzQfy6lfkpx2yYZYSyWTrGxA/edit" target = "_blank">Resume</a>
-        </div>
-
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <div id="entire">
+    <main class="container">
+      <section class="main-section">
+        <h1>Portfolio</h1>
+        <div id=left>
+          <div class="work">
+            <a class="l" target="_blank" href="https://precto1285.github.io/Alethean-Guitars/">
+              <img src="assets/images/alethean.png" alt="Alethean">
+
+              <h3>Alethean Guitars</h3>
+            </a>
+          </div>
+
+          <div class="work">
+            <a class="l" target="_blank" href="https://precto1285.github.io/North_County_Internist/">
+              <img src="assets/images/medicalLogo.jpg" alt="Medical">
+
+              <h3>North County Internist</h3>
+            </a>
+          </div>
+
+          <div class="work">
+            <a class="l" target="_blank" href="https://precto1285.github.io/Crystal-Collector-Game/">
+              <img src="assets/images/crystalCollector.png" alt="crystal">
+
+              <h3>Crystal Collector</h3>
+          </div>
 
 
-        <main>
-            <h1 class="head1">Portfolio</h1>
-            <hr/>
-            <!-- Insert A tag Image Source Here -->
-            <div id="left">
-                <a class="l" target="_blank" href="https://precto1285.github.io/Alethean-Guitars/">
-                    <img src="assets/images/alethean.png" alt="alethean">
-                    <br>
-                    <h3 class="pname">Alethean Guitars</h3>
-                </a>
-                <a class="l" target="_blank" href="https://precto1285.github.io/The-Daily-Sunshine/">
-                    <img src="assets/images/balloons.jpg" alt="balloons">
-                    <br>
-                    <h3 class="pname">The Daily Sunshine</h3>
-                </a>
-                <a class="l" target="_blank" href="https://precto1285.github.io/North_County_Internist/">
-                    <img src="assets/images/medicalLogo.jpg" alt="Medical">
-                    <br>
-                    <h3 class="pname">North County Internist</h3>
-                </a>
-            </div>
-            <div id="right">
-                <a class="r" target="_blank" href="https://precto1285.github.io/Hangman-Game/">
-                    <img src="assets/images/Noose.png" alt="rope">
-                    <br>
-                    <h3 class="pname">HANGMAN</h3>
-                </a>
-                <a class="r" target="_blank" href="https://precto1285.github.io/Crystal-Collector-Game/">
-                    <img src="assets/images/crystalCollector.png" alt="crystal">
-                    <br>
-                    <h3 class="pname">The Crystal Collector</h3>
-                </a>
-                <a class="r" target="_blank" href="https://precto1285.github.io/">
-                    <img src="assets/images/BoneheadLogo.jpg" alt="bonehead">
-                    <br>
-                    <h3 class="pname">Bonehead</h3>
-                </a>
-            </div>
+        </div>
+        <div id="right">
+          <div class="work">
+            <a class="r" target="_blank" href="https://precto1285.github.io/The-Daily-Sunshine/">
+              <img src="assets/images/balloons.jpg" alt="balloons">
 
-        </main>
-        <sidebar>
-            <h2 class="head1">Connect with Me</h2>
-            <hr/>
-            <a href="https://github.com/precto1285" target="_blank">
-                <img src="assets/images/Github.png" alt=Github/>
+              <h3>The Daily Sunshine</h3>
             </a>
-            <a href="https://www.linkedin.com/in/precto1285/" target="_blank">
-                <img src="assets/images/LinkedIn.png" alt="LinkedIn" />
+          </div>
+
+          <div class="work">
+            <a class="r" target="_blank" href="https://precto1285.github.io/Hangman-Game/">
+              <img src="assets/images/Noose.png" alt="rope">
+
+              <h3>HANGMAN</h3>
             </a>
-            <a href="https://stackexchange.com/users/12311524/philippe-recto" target="_blank">
-                <img src="assets/images/Stackoverflow.png" alt="StackOverflow" />
-            </a>
-        </sidebar>
+          </div>
+
+          <div class="work">
+            <a class="r" target="_blank" href="https://precto1285.github.io/">
+              <img src="assets/images/BoneheadLogo.jpg" alt="bonehead">
+
+              <h3>Bonehead</h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="sidebar">
+        <div id="connect">
+          <h2>Connect with Me</h2>
+
+
+          <ul>
+            <li>
+              <a target="_blank" href="https://github.com/precto1285">
+                <img src="assets/images/github-128.png" alt="Github">
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.linkedin.com/in/precto1285/">
+                <img src="assets/images/linkedin-128.png" alt="LinkedIn">
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://stackexchange.com/users/12311524/philippe-recto">
+                <img src="assets/images/stackoverflow-128.png" alt="Stack Overflow">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <div class="push"></div>
+  </div>
+
+  <footer>
+    <div class="container">
+      &copy; Copyright Philippe Recto 2018
     </div>
-    <footer>
-        Copyright &copy; Philippe Recto
-    </footer>
-
+  </footer>
 </body>
 
 </html>
