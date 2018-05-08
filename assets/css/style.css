@@ -9,7 +9,8 @@ body {
   color: #777;
 
   /* Visual */
-  background: url("../images/concrete_seamless.png");
+  background: url("../images/frank-mckenna-222543-unsplash.jpg");
+  background-size:100%;
 }
 
 * {
@@ -48,10 +49,10 @@ body {
   clear: both;
 }
 #Philippe{
-  float:left;
+  border-radius:35px;
 }
 .paragraph{
-  float:right;
+  text-shadow: mediumvioletred;
 }
 h1,
 h2,
@@ -70,7 +71,7 @@ h3 {
   /* Typography */
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: purple;
 }
 
 h1 {
@@ -105,7 +106,7 @@ h3 {
 
   /* Typography */
   color: #fff;
-  background: #fff;
+  background: rgb(180, 81, 186);
 
   /* Visual */
   border-bottom: 2px solid #ccc;
@@ -128,7 +129,7 @@ h3 {
   text-decoration: none;
 
   /* Visual */
-  background: #4aaaa5;
+  background:#ffb732;
 }
 
 nav {
@@ -157,7 +158,7 @@ nav li {
 
 nav a {
   /* Typography */
-  color: #999;
+  color: white;
   text-decoration: none;
 }
 
@@ -197,7 +198,7 @@ footer {
 
   /* Visual */
   background: #666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #ffb732;
 }
 
 /* sidebar */
@@ -212,7 +213,7 @@ footer {
 
   /* Positioning */
   margin-bottom: 20px;
-  background: #fff;
+  background: none;
 
   /* Visual */
   border: 1px solid #ddd;
@@ -268,7 +269,7 @@ main {
 
   /* Positioning */
   margin: 0 0 40px;
-  background: #fff;
+  background: none;
 
   /* Visual */
   border: 1px solid #ddd;
@@ -316,9 +317,9 @@ main {
 
   /* Typography */
 
-  color: #fff;
+  color: #ffb732;
   text-align: center;
-  background: #4aaaa5;
+  background: purple;
 
   /* Visual */
   border-bottom: 0;
@@ -383,7 +384,7 @@ input[type=submit] {
 
   /* Misc */
   cursor: pointer;
-  background: #4aaaa5;
+  background: #ffb732;
 
   /* Visual */
   border: 0 none;
