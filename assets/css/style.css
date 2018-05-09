@@ -71,6 +71,7 @@ h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   color: purple;
+  text-shadow: 2px 2px grey;
 }
 
 h1 {
@@ -80,6 +81,7 @@ h1 {
   /* Typography */
   font-size: 30px;
   line-height: 49px;
+  
 
   /* Visual */
   border-bottom: 3px solid #ddd;
@@ -121,7 +123,7 @@ h3 {
 
   /* Typography */
   font-family: Arial, Helvetica, sans-serif;
-  text-shadow: indigo;
+  text-shadow: 2px 2px grey;;
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
@@ -191,7 +193,8 @@ footer {
 
   /* Positioning */
   clear: both;
-  font-size: 12px;
+  font-size: 18px;
+  text-shadow: 2px 2px purple;
 
   /* Typography */
   color: #ccc;
