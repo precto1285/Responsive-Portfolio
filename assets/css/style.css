@@ -104,6 +104,7 @@ h3 {
   /* Typography */
   color: #fff;
   background: rgb(180, 81, 186);
+  opacity:0.7;
 
   /* Visual */
   border-bottom: 2px solid #ccc;
