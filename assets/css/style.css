@@ -50,6 +50,8 @@ body {
 }
 #Philippe{
   border-radius:35px;
+  float:left;
+  margin-right:27px;
 }
 h1,
 h2,
@@ -296,10 +298,10 @@ main {
   width: 100%;
 
   /* Visual */
-  border: 0 none;
+  border: rgba(255, 255, 255, 0.4);
 
   /* Misc */
-  opacity: 0.8;
+  margin:12px;
 }
 
 .work h3 {
@@ -322,6 +324,7 @@ main {
 
   /* Visual */
   border-bottom: 0;
+  margin:12px;
 }
 
 .auth-image {
